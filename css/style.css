@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+html {
+    min-height: 100%;
+}
+
+body {
+    background: linear-gradient(60deg, #cc2b5e 0%, #753a88 100%);
+    margin: 0;
+    font: normal 15pt Montserrat;
+}
+
+h1 {
+    width: fit-content;
+    color: whitesmoke;
+    text-align: left;
+}
+
+section {
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 915px;
+    height: 685px;
+    color: white;
+    margin: auto;
+    border-radius: 0px 30px;
+    border: solid white 1.75px;
+    background-color: #201f1f;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.425);
+}
+
+#esquerda {
+    width: 50%;
+    height: 100%;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+#dados {
+    margin: 0;
+    text-align: left;
+    width: 90%;
+}
+
+hr {
+    opacity: 33.5%;
+}
+
+#idade {
+    margin-bottom: 10px;
+}
+
+#pos-input {
+    margin-top: 13px;
+}
+
+#input-data {
+    height: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 99%;
+    border-radius: 8px;
+    
+}
+
+#sexo {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#sexoF {
+    margin-top: 15px;
+}
+
+label[for="sexoM"], label[for="sexoF"] {
+    font-size: 12.5pt;
+}
+
+#foto-direita {
+    position: relative;
+    width: 50%;
+    height: 101%;
+    margin-left: 50.125%;
+    top: -104.125%;
+}
+
+#imagem {
+    width: 100%;
+    height: 100%;
+}
+
+#footer {
+    position: relative;
+    width: fit-content;
+    margin: auto;
+    margin-top: 25.5%;
+    transform: translate(0%, -50%);
+    font: italic 13.5pt Montserrat;
+}
+
+#submit {
+    width: 100%;
+    margin: auto;
+}
+
+#result {
+    width: 100%;
+    height: 0;
+    margin: auto;
+    text-align: center;
+    font-size: 14pt;
+}
+
+.button {
+    margin-left: 50%;
+    margin-top: 20px;
+    margin-bottom: 45px;
+    transform: translate(-50%, 0%);
+    width: 85%;
+    height: 50px;
+    border-radius: 8px;
+    cursor: pointer;
+    background: linear-gradient(60deg, #753a88 0%, #cc2b5e 100%);
+    border: solid rgba(0, 0, 0, 0.623);
+    font: bold 1.25rem Montserrat;
+    letter-spacing: .15rem;
+}
